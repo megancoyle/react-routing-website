@@ -6,6 +6,7 @@ module.exports = {
         publicPath: "/assets/"
     },
     devServer: {
+        historyApiFallback: true,
         inline: true,
         contentBase: './dist',
         port: 3000
