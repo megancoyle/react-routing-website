@@ -33,7 +33,7 @@ render() {
 
         </div>
     )
-}
+  }
 }
 
 export default Member
